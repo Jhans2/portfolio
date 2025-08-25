@@ -130,9 +130,15 @@ export default function App() {
           </nav>
 
           {/* Resume Button */}
-          <a href={RESUME_URL} target="_blank" rel="noreferrer" className="ml-2 sm:ml-4 px-3 sm:px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium rounded-full shadow-lg hover:scale-105 transition transform flex items-center gap-2">
-            <FaDownload /> Resume
-          </a>
+<a 
+  href={RESUME_URL} 
+  target="_blank" 
+  rel="noreferrer" 
+  className="ml-2 sm:ml-4 px-3 sm:px-5 py-2 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium rounded-full shadow-lg hover:scale-105 transition transform flex items-center gap-2"
+>
+  <FaDownload /> Resume
+</a>
+
         </div>
       </header>
 
@@ -151,9 +157,15 @@ export default function App() {
             <p className="mt-2 text-base sm:text-lg text-blue-700">{ROLE}</p>
             <p className="mt-2 text-sm sm:text-base text-gray-700">{TAGLINE}</p>
             <div className="mt-4 sm:mt-6 flex flex-wrap justify-center md:justify-start gap-3 sm:gap-4">
-              <a href={RESUME_URL} target="_blank" rel="noreferrer" className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full flex items-center gap-2 shadow-lg hover:scale-105 transition">
-                <FaDownload /> Resume
-              </a>
+<a 
+  href={RESUME_URL} 
+  target="_blank" 
+  rel="noreferrer" 
+  className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-full flex items-center gap-2 shadow-lg hover:scale-105 transition"
+>
+  <FaDownload /> Resume
+</a>
+
               <a href={`mailto:${EMAIL}`} className="px-4 sm:px-6 py-2 sm:py-3 border border-gray-300 rounded-full flex items-center gap-2 hover:bg-gray-100 transition">
                 <FaEnvelope /> Contact
               </a>
