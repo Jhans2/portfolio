@@ -1,0 +1,1 @@
+Replace this file by adding your actual resume as /public/resume.pdf
