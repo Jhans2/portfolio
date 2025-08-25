@@ -10,7 +10,7 @@ const EMAIL = "Jatinhans2002@gmail.com";
 const LOCATION = "Canada";
 const GITHUB = "https://github.com/jhans2";
 const LINKEDIN = "https://www.linkedin.com/in/jatin-hans-97229023b/";
-const RESUME_URL = "portfolio/resume.pdf";
+const RESUME_URL = process.env.PUBLIC_URL + "/resume.pdf";
 
 const skills = [
   { group: "Programming & Scripting", items: ["JavaScript (React, Node.js)", "Python", "Java", "C/C++", "PowerShell", "SQL", "PL/SQL", "Groovy"] },
